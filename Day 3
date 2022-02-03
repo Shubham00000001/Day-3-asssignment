@@ -1,0 +1,5 @@
+#From a dictionary, print the Key whose Value is maximum in the dictionary.
+
+Salart_li = {'shubham salary':45000, 'amit salary':85000, 'aman salary':65000 }
+value = max(Salart_li,key=Salart_li.get)
+print(value,'is highest')
